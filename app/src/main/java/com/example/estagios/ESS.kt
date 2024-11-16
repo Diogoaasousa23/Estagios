@@ -1,20 +1,27 @@
 package com.example.estagios
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.estagios.adapter.LineAdapter
+import com.example.estagios.dataclass.Estagio
 
 class ESS : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_ess)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+        setContentView(R.layout.activity_estg)
+
+        // Criar lista de estágios
+        val listaEstagios = listOf(
+            Estagio("Gestão", "Qualquer", "Evora"),
+            Estagio("Empresas", "Benfica", "Lisboa")
+        )
+
+        // Configurar RecyclerView
+        val recyclerView = findViewById<RecyclerView>(R.id.recycler)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = LineAdapter(listaEstagios)
     }
 }
