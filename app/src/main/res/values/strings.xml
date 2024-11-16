@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Estagios</string>
+    <string name="logo_da_ese">Logo da ESE</string>
+    <string name="logo_da_esa">Logo da ESA</string>
+    <string name="logo_da_estg">Logo da ESTG</string>
+    <string name="logo_da_ess">Logo da ESS</string>
+    <string name="logo_da_esce">Logo da ESCE</string>
+    <string name="logo_da_esdl">Logo da ESDL</string>
+</resources>

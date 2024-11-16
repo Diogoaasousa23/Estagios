@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Título da Aplicação -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma Escola"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black" />
+
+    <!-- Botão ESE -->
+    <ImageButton
+        android:id="@+id/button_ese"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/title"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ese_logo"
+        android:contentDescription="@string/logo_da_ese"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+
+    <!-- Botão ESA -->
+    <ImageButton
+        android:id="@+id/button_esa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/button_ese"
+        android:layout_toEndOf="@id/button_ese"
+        android:src="@drawable/esa_logo"
+        android:contentDescription="@string/logo_da_esa"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+
+    <!-- Botão ESTG -->
+    <ImageButton
+        android:id="@+id/button_estg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/button_ese"
+        android:layout_alignStart="@id/button_ese"
+        android:src="@drawable/estg_logo"
+        android:contentDescription="@string/logo_da_estg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+
+    <!-- Botão ESS -->
+    <ImageButton
+        android:id="@+id/button_ess"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/button_estg"
+        android:layout_toEndOf="@id/button_estg"
+        android:src="@drawable/ess_logo"
+        android:contentDescription="@string/logo_da_ess"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+
+    <!-- Botão ESCE -->
+    <ImageButton
+        android:id="@+id/button_esce"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/button_estg"
+        android:layout_alignStart="@id/button_estg"
+        android:src="@drawable/esce_logo"
+        android:contentDescription="@string/logo_da_esce"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+
+    <!-- Botão ESDL -->
+    <ImageButton
+        android:id="@+id/button_esdl"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/button_esce"
+        android:layout_toEndOf="@id/button_esce"
+        android:src="@drawable/esdl_logo"
+        android:contentDescription="@string/logo_da_esdl"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+
+</RelativeLayout>
