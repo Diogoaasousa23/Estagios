@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Estagios"
         tools:targetApi="31">
         <activity
+            android:name=".ESTG"
+            android:exported="false" />
+        <activity
+            android:name=".ESDL"
+            android:exported="false" />
+        <activity
+            android:name=".ESCE"
+            android:exported="false" />
+        <activity
+            android:name=".ESS"
+            android:exported="false" />
+        <activity
+            android:name=".ESAA"
+            android:exported="false" />
+        <activity
+            android:name=".ESE"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

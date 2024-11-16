@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -20,82 +19,82 @@
         android:paddingBottom="16dp"
         android:textColor="@color/black" />
 
-    <!-- Botão ESE -->
+    <!-- Coluna Esquerda: Botão ESE -->
     <ImageButton
         android:id="@+id/button_ese"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_below="@id/title"
         android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
         android:src="@drawable/ese_logo"
         android:contentDescription="@string/logo_da_ese"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+        android:scaleType="centerInside" />
 
-    <!-- Botão ESA -->
+    <!-- Coluna Direita: Botão ESA -->
     <ImageButton
         android:id="@+id/button_esa"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignTop="@id/button_ese"
-        android:layout_toEndOf="@id/button_ese"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
         android:src="@drawable/esa_logo"
         android:contentDescription="@string/logo_da_esa"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+        android:scaleType="centerInside" />
 
-    <!-- Botão ESTG -->
+    <!-- Coluna Esquerda: Botão ESTG -->
     <ImageButton
         android:id="@+id/button_estg"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_below="@id/button_ese"
         android:layout_alignStart="@id/button_ese"
+        android:layout_marginTop="16dp"
         android:src="@drawable/estg_logo"
         android:contentDescription="@string/logo_da_estg"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+        android:scaleType="centerInside" />
 
-    <!-- Botão ESS -->
+    <!-- Coluna Direita: Botão ESS -->
     <ImageButton
         android:id="@+id/button_ess"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_alignTop="@id/button_estg"
-        android:layout_toEndOf="@id/button_estg"
+        android:layout_below="@id/button_esa"
+        android:layout_alignEnd="@id/button_esa"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ess_logo"
         android:contentDescription="@string/logo_da_ess"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+        android:scaleType="centerInside" />
 
-    <!-- Botão ESCE -->
+    <!-- Coluna Esquerda: Botão ESCE -->
     <ImageButton
         android:id="@+id/button_esce"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_below="@id/button_estg"
         android:layout_alignStart="@id/button_estg"
+        android:layout_marginTop="16dp"
         android:src="@drawable/esce_logo"
         android:contentDescription="@string/logo_da_esce"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginEnd="16dp" /> <!-- Espaçamento à direita -->
+        android:scaleType="centerInside" />
 
-    <!-- Botão ESDL -->
+    <!-- Coluna Direita: Botão ESDL -->
     <ImageButton
         android:id="@+id/button_esdl"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_alignTop="@id/button_esce"
-        android:layout_toEndOf="@id/button_esce"
+        android:layout_below="@id/button_ess"
+        android:layout_alignEnd="@id/button_ess"
+        android:layout_marginTop="16dp"
         android:src="@drawable/esdl_logo"
         android:contentDescription="@string/logo_da_esdl"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerInside"
-        android:layout_marginStart="100dp" /> <!-- Espaçamento à esquerda -->
+        android:scaleType="centerInside" />
 
 </RelativeLayout>

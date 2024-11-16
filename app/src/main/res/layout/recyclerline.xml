@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#50C878"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <!-- Nome do Curso -->
+    <TextView
+        android:id="@+id/curso"
+        android:layout_margin="10dp"
+        android:text="Nome do Curso"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Nome da Empresa -->
+    <TextView
+        android:id="@+id/empresa"
+        android:text="Nome da Empresa"
+        android:layout_below="@+id/curso"
+        android:layout_alignLeft="@id/curso"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Local da Empresa -->
+    <TextView
+        android:id="@+id/local"
+        android:text="Local da Empresa"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

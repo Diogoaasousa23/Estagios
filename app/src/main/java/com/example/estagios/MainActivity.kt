@@ -1,8 +1,8 @@
 package com.example.estagios
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -21,32 +21,33 @@ class MainActivity : AppCompatActivity() {
 
         // Configuração do clique nos botões
         buttonESE.setOnClickListener {
-            showToast("Você escolheu a ESE")
+            openActivity(ESE::class.java)
         }
 
         buttonESA.setOnClickListener {
-            showToast("Você escolheu a ESA")
+            openActivity(ESAA::class.java)
         }
 
         buttonESTG.setOnClickListener {
-            showToast("Você escolheu a ESTG")
+            openActivity(ESTG::class.java)
         }
 
         buttonESS.setOnClickListener {
-            showToast("Você escolheu a ESS")
+            openActivity(ESS::class.java)
         }
 
         buttonESCE.setOnClickListener {
-            showToast("Você escolheu a ESCE")
+            openActivity(ESCE::class.java)
         }
 
         buttonESDL.setOnClickListener {
-            showToast("Você escolheu a ESDL")
+            openActivity(ESDL::class.java)
         }
     }
 
-    // Função para exibir um Toast simples com a mensagem
-    private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    // Função para abrir a Activity passada como parâmetro
+    private fun openActivity(activityClass: Class<*>) {
+        val intent = Intent(this, activityClass)
+        startActivity(intent)
     }
 }
