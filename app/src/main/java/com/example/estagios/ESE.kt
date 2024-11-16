@@ -17,8 +17,8 @@ class ESE : AppCompatActivity() {
         val listaEstagios = listOf(
             Estagio("Artes e Cinema Digital", "RTP - Rádio e Televisão de Portugal", "Lisboa"),
             Estagio("Artes e Cinema Digital", "Clap Filmes", "Porto"),
-            Estagio("Artes Plásticas e Tecnologias Artísticas", "Fundação Serralves", "Porto"),
-            Estagio("Artes Plásticas e Tecnologias Artísticas", "Museu Nacional de Arte Contemporânea (MNAC)", "Lisboa"),
+            Estagio("Artes Plásticas e Tecnologias da Arte", "Fundação Serralves", "Porto"),
+            Estagio("Artes Plásticas e Tecnologias da Arte", "Museu Nacional de Arte Contemporânea (MNAC)", "Lisboa"),
             Estagio("Educação Básica", "Escola Primária de Viana do Castelo", "Viana do Castelo"),
             Estagio("Educação Básica", "Agrupamento de Escolas de Braga", "Braga"),
             Estagio("Educação Social Gerontológica", "Santa Casa da Misericórdia de Lisboa", "Lisboa"),

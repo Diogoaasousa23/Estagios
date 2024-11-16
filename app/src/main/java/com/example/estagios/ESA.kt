@@ -21,9 +21,9 @@ class ESA : AppCompatActivity() {
             Estagio("Biotecnologia", "Biocant - Centro de Inovação em Biotecnologia", "Cantanhede"),
             Estagio("Enfermagem Veterinária", "Hospital Veterinário do Porto", "Porto"),
             Estagio("Enfermagem Veterinária", "Zoo Santo Inácio", "Vila Nova de Gaia"),
-            Estagio("Engenharia do Ambiente e Geoinformática", "Quercus - Associação Nacional de Conservação da Natureza", "Lisboa"),
-            Estagio("Engenharia do Ambiente e Geoinformática", "Agência Portuguesa do Ambiente (APA)", "Lisboa"),
-            Estagio("Engenharia do Ambiente e Geoinformática", "EDP Renováveis", "Lisboa"),
+            Estagio("Engenharia do Ambiente", "Quercus - Associação Nacional de Conservação da Natureza", "Lisboa"),
+            Estagio("Engenharia do Ambiente", "Agência Portuguesa do Ambiente (APA)", "Lisboa"),
+            Estagio("Engenharia do Ambiente", "EDP Renováveis", "Lisboa"),
             Estagio("Biotecnologia", "Labfit - Health Products Research and Development", "Guimarães")
         )
 
