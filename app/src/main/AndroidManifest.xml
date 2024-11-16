@@ -25,13 +25,10 @@
             android:name=".ESS"
             android:exported="false" />
         <activity
-            android:name=".ESAA"
+            android:name=".ESA"
             android:exported="false" />
         <activity
             android:name=".ESE"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

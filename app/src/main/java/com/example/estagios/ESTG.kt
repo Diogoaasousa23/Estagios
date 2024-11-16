@@ -15,10 +15,17 @@ class ESTG : AppCompatActivity() {
 
         // Criar lista de estágios
         val listaEstagios = listOf(
-            Estagio("Engenharia Informática", "Google", "Lisboa"),
-            Estagio("Design Gráfico", "Adobe", "Porto"),
-            Estagio("Gestão", "Microsoft", "Braga")
-        )
+            Estagio("Engenharia Informática", "Altice Labs", "Braga"),
+            Estagio("Engenharia Mecânica", "Continental Mabor", "Famalicão"),
+            Estagio("Engenharia Mecatrónica", "Bosch Car Multimedia", "Braga"),
+            Estagio("Design do Produto", "IKEA Industry", "Paços de Ferreira"),
+            Estagio("Engenharia de Redes e Sistemas de Computadores", "NOS Comunicações", "Porto"),
+            Estagio("Gastronomia e Artes Culinárias", "Restaurante Fortaleza do Guincho", "Cascais"),
+            Estagio("Gestão", "Viana Marina", "Viana do Castelo"),
+            Estagio("Engenharia Alimentar", "Frulact", "Maia"),
+            Estagio("Turismo", "Pousadas de Portugal", "Viana do Castelo"),
+            Estagio("Engenharia Civil e do Ambiente", "Águas do Norte", "Braga")
+            )
 
         // Configurar RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recycler)

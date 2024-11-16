@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonESA.setOnClickListener {
-            openActivity(ESAA::class.java)
+            openActivity(ESA::class.java)
         }
 
         buttonESTG.setOnClickListener {

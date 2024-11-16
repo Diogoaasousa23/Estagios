@@ -15,8 +15,16 @@ class ESS : AppCompatActivity() {
 
         // Criar lista de estágios
         val listaEstagios = listOf(
-            Estagio("Gestão", "Qualquer", "Evora"),
-            Estagio("Empresas", "Benfica", "Lisboa")
+            Estagio("Enfermagem", "Hospital Santa Luzia", "Viana do Castelo"),
+            Estagio("Enfermagem", "Clínica de Saúde Familiar", "Ponte de Lima"),
+            Estagio("Enfermagem", "Unidade Local de Saúde do Alto Minho", "Monção"),
+            Estagio("Enfermagem", "Centro de Saúde de Caminha", "Caminha"),
+            Estagio("Enfermagem", "Hospital Particular do Minho", "Braga"),
+            Estagio("Enfermagem", "Centro de Cuidados Continuados", "Viana do Castelo"),
+            Estagio("Enfermagem", "Lar de Idosos São Francisco", "Valença"),
+            Estagio("Enfermagem", "Clínica Médica Sorriso", "Arcos de Valdevez"),
+            Estagio("Enfermagem", "Unidade de Saúde Pública de Melgaço", "Melgaço"),
+            Estagio("Enfermagem", "Centro de Reabilitação do Norte", "Vila Nova de Gaia")
         )
 
         // Configurar RecyclerView
