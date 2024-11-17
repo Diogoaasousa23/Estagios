@@ -7,12 +7,22 @@
     android:background="@android:color/white"
     tools:context=".MainActivity">
 
+    <!--Logo IPVC -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:src="@drawable/ipvc"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/logo_ipvc" />
+
     <!-- Título da Aplicação -->
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Escolha uma Escola"
+        android:text="@string/escolha_uma_escola"
+        android:layout_below="@+id/logo"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
@@ -27,6 +37,7 @@
         android:layout_below="@id/title"
         android:layout_alignParentStart="true"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ese_logo"
         android:contentDescription="@string/logo_da_ese"
         android:background="?attr/selectableItemBackgroundBorderless"

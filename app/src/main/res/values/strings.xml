@@ -6,4 +6,6 @@
     <string name="logo_da_ess">Logo da ESS</string>
     <string name="logo_da_esce">Logo da ESCE</string>
     <string name="logo_da_esdl">Logo da ESDL</string>
+    <string name="logo_ipvc" />
+    <string name="escolha_uma_escola">Escolha uma Escola</string>
 </resources>
