@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#50C878"
+    android:background="#9700ff"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp">
@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/curso"
         android:layout_margin="10dp"
-        android:text="Nome do Curso"
+        android:text="@string/nome_do_curso"
         android:textStyle="bold"
         android:textSize="16sp"
         android:layout_width="wrap_content"
@@ -19,9 +19,9 @@
     <!-- Nome da Empresa -->
     <TextView
         android:id="@+id/empresa"
-        android:text="Nome da Empresa"
+        android:text="@string/nome_da_empresa"
         android:layout_below="@+id/curso"
-        android:layout_alignLeft="@id/curso"
+        android:layout_alignStart="@id/curso"
         android:layout_marginBottom="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -29,8 +29,8 @@
     <!-- Local da Empresa -->
     <TextView
         android:id="@+id/local"
-        android:text="Local da Empresa"
-        android:layout_alignParentRight="true"
+        android:text="@string/local_da_empresa"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
