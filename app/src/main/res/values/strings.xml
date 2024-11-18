@@ -8,4 +8,7 @@
     <string name="logo_da_esdl">Logo da ESDL</string>
     <string name="logo_ipvc" />
     <string name="escolha_uma_escola">Escolha uma Escola</string>
+    <string name="nome_do_curso">Nome do Curso</string>
+    <string name="nome_da_empresa">Nome da Empresa</string>
+    <string name="local_da_empresa">Local da Empresa</string>
 </resources>
